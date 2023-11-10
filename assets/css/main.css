@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Open+Sans&display=swap");
-.hero-section .hero-content .scroll-bottom, .feature-section .single-feature .icon, .box-style .icon, .footer .widget-wrapper .footer-widget .socials li a {
+/* .hero-section .hero-content .scroll-bottom, .feature-section .single-feature .icon, .box-style .icon, .footer .widget-wrapper .footer-widget .socials li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,6 +11,8 @@
           align-items: center;
           
 }
+
+
 
 /*===========================
     01.COMMON css 
@@ -51,6 +53,12 @@ body {
   font-style: normal;
   color: #7e5b6e;
   overflow-x: hidden;
+}
+
+.hero-content{
+  text-align: center;
+  margin-top: 170px;
+  
 }
 
 * {
@@ -241,13 +249,13 @@ p {
 
 
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .container {
-   padding-left: 20px;
+   /*padding-left: 20px;
     padding-right: 20px;  
     
   }
-}
+} */
 
 .main-btn {
   display: inline-block;
@@ -793,21 +801,30 @@ p {
   width: 100%;
 }
 
-/* ====== hero-area ===== */
+/* ====== hero-area ===== 
 .hero-section {
   position: relative;
   z-index: 1;
   padding: 160px 0 50px;
-  background-image: url("../img/horse.jpeg");
+ /*  background-image: url("../img/horse.jpeg");  
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width:100%;
   
+}  */
+
+.background-clip{
+  position:absolute;
+  z-index: -1;
+  right:0;
+  bottom:0;
+
 }
 
 @media (max-width: 767px) {
   .hero-section {
     padding-top: 130px;
+   
   }
 }
 
